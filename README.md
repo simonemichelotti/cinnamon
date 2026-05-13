@@ -122,6 +122,23 @@ The test suite covers:
 - **recipes** — Home page visibility rules (anonymous/authenticated/friends); `toggle_like` endpoint behaviour.
 - **community** — `CommunityDetailView` access (public/private, member/moderator/friend); join/leave consistency and idempotency.
 
+## Screenshots
+
+### Home page
+![Home page](/docs/screenshots/homepage.png)
+
+### Home page with login prompt
+![Home page – login prompt](/docs/screenshots/home_login.png)
+
+### Login
+![Login](/docs/screenshots/login.png)
+
+### Community
+![Community](/docs/screenshots/community.png)
+
+### Users
+![Users](/docs/screenshots/users.png)
+
 ## Architecture
 
 For a detailed description of the data model, use-case diagram, architectural decisions and technology choices, see [ARCHITECTURE.md](ARCHITECTURE.md).
