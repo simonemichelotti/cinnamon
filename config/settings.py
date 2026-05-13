@@ -28,7 +28,7 @@ SECRET_KEY = os.environ.get(
 )
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['localhost', '127.0.0.1']  # Update with your domain(s)
 
@@ -157,4 +157,4 @@ SECURE_HSTS_PRELOAD = True
 # Prevent clickjacking
 X_FRAME_OPTIONS = 'DENY'
 # Content Security Policy (basic example)
-CSP_DEFAULT_SRC = ("'self'",)
+CSP_DEFAULT_SRC = ("'self'",)
