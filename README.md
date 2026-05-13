@@ -142,7 +142,3 @@ The test suite covers:
 ## Architecture
 
 For a detailed description of the data model, use-case diagram, architectural decisions and technology choices, see [ARCHITECTURE.md](ARCHITECTURE.md).
-
-## License
-
-This project is licensed under the MIT License — see [LICENSE](LICENSE) for details.
